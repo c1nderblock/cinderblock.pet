@@ -8,15 +8,16 @@
 	cursor: pointer;
 }
 .tooltiptext {
-  	visibility: hidden; /* Hidden by default */
+  	visibility: hidden;
   	width: 130px;
-  	background-color: black;
-  	color: #ffffff;
+  	background-color: white;
+  	color: red;
   	text-align: center;
   	padding: 5px 0;
-  	border-radius: 6px;
   	position: absolute;
-  	z-index: 1; /* Ensure tooltip is displayed above content */
+  	border-style: dashed;
+  	border-color: blue;
+  	border-width: 2px;
 }
 .tooltip:hover .tooltiptext{
 	visibility: visible;
